@@ -70,13 +70,19 @@ export default function Navbar() {
             onMouseLeave={closeSolutions}
           >
             <span
-              className="px-5 py-2 text-sm font-medium text-slate-600
-                hover:text-slate-900 transition-all
-                rounded-full hover:bg-white cursor-pointer
-                shadow-sm hover:shadow"
-            >
-              Solutions
-            </span>
+  className={`
+    px-5 py-2 text-sm font-medium cursor-pointer
+    transition-all rounded-full shadow-sm
+    ${
+      solutionsOpen
+        ? "bg-white text-slate-900 shadow"
+        : "text-slate-600 hover:bg-white hover:text-slate-900 hover:shadow"
+    }
+  `}
+>
+  Solutions
+</span>
+
 
             {/* 🔽 Mega Menu INSIDE same hover zone */}
             {solutionsOpen && (
