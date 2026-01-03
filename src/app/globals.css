@@ -219,6 +219,20 @@ html {
 .social-icon {
   @apply text-slate-400 hover:text-primary transition-colors;
 }
+/* Hide scrollbar for Chrome, Safari and Edge */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Prevent horizontal scroll */
+body {
+  overflow-x: hidden;
+}
 
 /* .grid-bg {
   background-size: 40px 40px;
