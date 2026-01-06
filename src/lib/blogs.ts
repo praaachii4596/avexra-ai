@@ -1,5 +1,5 @@
 import { Blog } from "@/types/blog";
-import { extractTextFromPortableText } from "./readtime";
+import { extractTextFromPortableText } from "./readTime";
 
 /* ----------------------------------------
    FEATURED / LISTING HELPERS
