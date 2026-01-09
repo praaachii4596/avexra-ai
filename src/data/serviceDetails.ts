@@ -17,7 +17,6 @@ export const serviceDetails: ServiceDetail[] = [
 			],
 			primaryCta: "Build Your Agent",
 			secondaryCta: "Explore Technical Docs",
-			image: "/services/agentic-ai.png",
 		},
 		capabilities: [
 			{
@@ -122,7 +121,6 @@ export const serviceDetails: ServiceDetail[] = [
 			],
 			primaryCta: "Build a Chatbot",
 			secondaryCta: "View Demo",
-			image: "/services/intelligent-chatbots.png",
 		},
 		capabilities: [
 			{
@@ -236,7 +234,6 @@ export const serviceDetails: ServiceDetail[] = [
 			],
 			primaryCta: "Audit Processes",
 			secondaryCta: "View Workflows",
-			image: "/services/process-automation.png",
 		},
 		capabilities: [
 			{
@@ -340,7 +337,7 @@ export const serviceDetails: ServiceDetail[] = [
 			],
 			primaryCta: "Explore Predictive AI",
 			secondaryCta: "View Methodology",
-			image: "/services/predictive-modeling.png",
+	
 		},
 		capabilities: [
 			{
@@ -444,7 +441,6 @@ export const serviceDetails: ServiceDetail[] = [
 			],
 			primaryCta: "Start a Project",
 			secondaryCta: "View Capabilities",
-			image: "/services/custom-software.png",
 		},
 		capabilities: [
 			{
@@ -548,7 +544,6 @@ export const serviceDetails: ServiceDetail[] = [
 			],
 			primaryCta: "Integrate Systems",
 			secondaryCta: "See Architecture",
-			image: "/services/enterprise-integration.png",
 		},
 		capabilities: [
 			{
